@@ -1,0 +1,7 @@
+<h1>Hola</h1>
+@for (producto of productos(); track $index) {
+  <div class="producto">
+    <h2>{{ producto.marca }}</h2>
+    <p>Precio: {{ producto.cantidad }}</p>
+  </div>
+}
